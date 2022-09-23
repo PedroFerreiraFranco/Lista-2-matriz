@@ -30,11 +30,9 @@ int main(){
 	
 	geraMatriz(m1,lin,cols);
 	printMatriz(m1,lin,cols);
-	
-		j=ordem-1;
-		for (i=0;i<ordem;i++){
-			printf("%d ", m1[i][j]);
-			j--;
+
+		for (i=0;i<lin;i++){
+			printf("%d\n", m1[i][i]);
 }
 
 }
